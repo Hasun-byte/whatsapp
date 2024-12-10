@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "Server Notifikasi Whatsapp Integrasi Laravel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasun",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "puppeteer": "^23.10.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
